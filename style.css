@@ -1,0 +1,64 @@
+html,
+body {
+    font-family: Epilogue, sans-serif;
+}
+
+
+#logo {
+    margin: 15px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+a:last-child{
+    margin-right: 35px;
+}
+.logins{
+    float: right;
+}
+
+.content{
+    display: inline-block;
+    width: 75%;  
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.leftSide{
+    float: left;
+    height: 40vw;
+}
+.rightSide{
+    float: right;
+}
+.rightSide img{
+    height: 40vw;
+}
+
+.content .leftSide h1{
+    font-family: Epilogue;
+    font-weight: 700;
+    font-size: 5vw;
+    margin: 0;
+    padding: 0;
+}
+
+.content .leftSide p{
+    color: gray;
+    margin: 50px 50px 50px 0px;
+    line-height: 25px;
+}
+
+.content .leftSide button{
+    margin: 20px 50px 90px 0px;
+}
